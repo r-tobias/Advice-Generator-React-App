@@ -1,38 +1,82 @@
+* {
+  margin: auto 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  /* background-image: url("https://c.tenor.com/FIlAXMHf8vsAAAAd/naruto-background.gif"); */
+  background-image: url('https://acegif.com/wp-content/gifs/sun-8.gif') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  letter-spacing: 4px;
+  justify-content: space-between;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,84,1) 29%, rgba(29,29,94,1) 37%, rgba(33,33,102,1) 44%, rgba(28,59,124,1) 70%, rgba(26,73,136,1) 82%, rgba(19,110,168,1) 100%, rgba(12,148,201,1) 100%, rgba(0,212,255,1) 100%); 
+ 
+  
+}
+
+header h1 {
+  margin-left: 20px;
+  color: #ff5b82;
+  text-shadow: 1.5px 1.5px #ab4185;
+  letter-spacing: 10px;
+}
+header ul {
+  display: flex;
+  padding: 20px;
+}
+
+header li {
   color: white;
+  font-size: 30px;
+  padding: 20px;
+  margin-left: 30px;
+  list-style-type: none; 
+  
+}
+button {
+  border: none;
+  border-radius: 50px;
+  background: #ff8686;
+  color: white;
+  cursor: pointer;
+margin-top: 30px;
+  padding: 20px;
+}
+.advice {
+  color: white;
+  background-color: black;
+  opacity: 0.2;
+  margin-top: 30px;
+  border-radius: 50px;
+  /* display: flex; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* width: 50%; */
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.about-container {
+padding: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-container button {
+  padding: 10px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: 8px;
+
 }
